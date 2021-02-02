@@ -26,6 +26,7 @@ class market():
         if urunsecim in urunler and stok[urunsecim] > 0:
             if para >= urunler[urunsecim]:
                 cuzdan = para - urunler[urunsecim]
+                stok[urunsecim] - stok[urunsecim]
                 print("Başarıyla", urunsecim, "Aldınız!\n Cüzdanınızda kalan para:", cuzdan,"\n Markette '" + urunsecim + "' adlı üründen", stok[urunsecim], "adet kaldı.")
                 time.sleep(3)
             else:
